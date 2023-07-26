@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather Now!</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="stylesejs.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Edu+VIC+WA+NT+Beginner:wght@600&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="blue">
+    </div>
+    <div class="pink">
+    </div>
+    <div class="total">
+        <h1 class="date">
+            <%=todaydate%>
+        </h1>
+        <div class="info">
+            <h3>Weather in <%=city%> is currently <strong><em>
+                            <%=condition%>
+                        </em></strong> </h3>
+            <h3>Temperature Currently is <%=currenttemp%> C</h3>
+            <h3>Temperature Currently feels like <%=feeltemp%> C</h3>
+        </div>
+    </div>
+</body>
+
+</html>
