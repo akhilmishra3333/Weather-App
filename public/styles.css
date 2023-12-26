@@ -7,11 +7,6 @@ body{
     color: #BF9742;
 }
 
-.enterc{
-    display: inline;
-    font-size: 150%;
-}
-
 .citybox{
     margin-top: 20px;
     margin-left: 10px;
@@ -20,13 +15,4 @@ body{
     border-radius: 5px;
     padding-left: 10px;
     border-width: 0 3px 5px 0;
-}
-
-.check{
-   display: block;
-   margin: 30px 710px;
-   height: 30px;
-   width: 200px;
-   font-size: 150%;
-   color: #BF9742;
 }
